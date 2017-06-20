@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="RegressionTesting" parallel="tests" thread-count="3">
+  <!-- <test name="FFTest" preserve-order="true">
+  <parameter name="browser" value="Firefox"></parameter>
+    <classes>
+      <class name="com.amplify.testng.BeforeAfterClass"/>
+    </classes>
+  </test>  --><!-- FFTest -->
+  
+  <test name="ChromeTest" preserve-order="true">
+  <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.amplify.testng.BeforeAfterClass"/>
+     </classes>
+  </test>
+  <!-- <test name="IETest" preserve-order="true">
+  <parameter name="browser" value="IE"></parameter>
+    <classes>
+      <class name="com.amplify.testng.BeforeAfterClass"/>
+    </classes>
+  </test> -->
+</suite> <!-- RegressionTesting -->
